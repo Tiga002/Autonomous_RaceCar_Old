@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Autonomous_RaceCar/catkin_ws/devel
+
+Name: steering_pid_controller
+Description: Description of steering_pid_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/Autonomous_RaceCar/catkin_ws/devel/lib 
+Requires: 

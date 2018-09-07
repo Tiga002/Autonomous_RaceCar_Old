@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Autonomous_RaceCar/catkin_ws/install
+
+Name: ros_object_detector
+Description: Description of ros_object_detector
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/Autonomous_RaceCar/catkin_ws/install/lib 
+Requires: 

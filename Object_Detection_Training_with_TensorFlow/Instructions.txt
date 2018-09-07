@@ -1,0 +1,40 @@
+Step 1: Git Clone Google's Tensorflow API 
+https://github.com/tensorflow/models.git
+
+Step 2: Follow the Installation Instruction 
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
+
+Step 3: cd models/research/object_detection
+
+step 4: Create 3 folders @ models/research/object_detection
+--> images
+       ->test
+       ->training
+--> inference_graph
+--> training
+
+Step 5: Collect jpgs data, each categories with 40-50 separately and 100 mixing with different categories
+
+Step 6: Put all the .jpgs, resizer.py and change_img_name.py into <images>
+
+Step 7: Run change_img_name.py then run resizer.py 
+
+Step 8: Put 80% of images as Training and put inside <training> || 20% of image as testing then put inside <testing>
+
+Step 9: Label the images separately with using the labelImg tool, and saved the xml annotations with the same location of its belonging images
+
+Step 10: Run xml_to_csv.py under < models/reseach/object_detection> 
+   -- training.csv and testing.csv will be created inside images
+
+Step 11: Run generate_tf_record.py with editing the object--labels inside the python code 
+  -- train.tf and test.tf will be created
+
+Step 12: Create a label map .pbtxt and saved in <object_detection/training>
+
+Step 13: Download the pre-trained model from Google Models Zoo and put under </object_detection>
+
+Step 14: Edit the pipeline.config and saved into <object_detection/training>
+
+Step 15: Train !!!!! 
+
+
