@@ -1189,7 +1189,7 @@ diagnostic_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f car_joystick/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make car_joystick/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
 .PHONY : diagnostic_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1202,7 +1202,7 @@ diagnostic_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_eus/fast:
-	$(MAKE) -f car_joystick/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make car_joystick/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
 .PHONY : diagnostic_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1215,7 +1215,7 @@ diagnostic_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f car_joystick/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make car_joystick/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
 .PHONY : diagnostic_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1228,7 +1228,7 @@ diagnostic_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_py/fast:
-	$(MAKE) -f car_joystick/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make car_joystick/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
 .PHONY : diagnostic_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -1241,8 +1241,21 @@ diagnostic_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f car_joystick/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make car_joystick/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make joy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
 .PHONY : diagnostic_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named joy_node
+
+# Build rule for target.
+joy_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 joy_node
+.PHONY : joy_node
+
+# fast build rule for target.
+joy_node/fast:
+	$(MAKE) -f joy/CMakeFiles/joy_node.dir/build.make joy/CMakeFiles/joy_node.dir/build
+.PHONY : joy_node/fast
 
 #=============================================================================
 # Target rules for targets named car_joystick
@@ -2263,6 +2276,7 @@ help:
 	@echo "... diagnostic_msgs_generate_messages_cpp"
 	@echo "... diagnostic_msgs_generate_messages_py"
 	@echo "... diagnostic_msgs_generate_messages_lisp"
+	@echo "... joy_node"
 	@echo "... car_joystick"
 	@echo "... rplidarNode"
 	@echo "... rplidarNodeClient"

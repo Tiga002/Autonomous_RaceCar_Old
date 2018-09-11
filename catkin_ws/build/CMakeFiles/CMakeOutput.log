@@ -612,3 +612,17 @@ int main(int argc, char** argv)
 #endif
 }
 
+Determining if files linux/joystick.h exist passed with the following output:
+Change Dir: /home/ubuntu/Autonomous_RaceCar/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1eab0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1eab0.dir/build.make CMakeFiles/cmTC_1eab0.dir/build
+make[1]: Entering directory '/home/ubuntu/Autonomous_RaceCar/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1eab0.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1eab0.dir/CheckIncludeFiles.c.o   -c /home/ubuntu/Autonomous_RaceCar/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_1eab0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eab0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1eab0.dir/CheckIncludeFiles.c.o  -o cmTC_1eab0 -rdynamic 
+make[1]: Leaving directory '/home/ubuntu/Autonomous_RaceCar/catkin_ws/build/CMakeFiles/CMakeTmp'
+
+

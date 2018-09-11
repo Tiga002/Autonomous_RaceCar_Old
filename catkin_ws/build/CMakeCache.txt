@@ -1382,8 +1382,20 @@ hector_trajectory_server_SOURCE_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catki
 //The directory containing a CMake configuration file for image_transport.
 image_transport_DIR:PATH=/opt/ros/kinetic/share/image_transport/cmake
 
+//Value Computed by CMake
+joy_BINARY_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/build/joy
+
 //The directory containing a CMake configuration file for joy.
-joy_DIR:PATH=/opt/ros/kinetic/share/joy/cmake
+joy_DIR:PATH=/home/ubuntu/Autonomous_RaceCar/catkin_ws/devel/share/joy/cmake
+
+//Value Computed by CMake
+joy_SOURCE_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/src/joy
+
+//Value Computed by CMake
+joystick_drivers_BINARY_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/build/joystick_drivers/joystick_drivers
+
+//Value Computed by CMake
+joystick_drivers_SOURCE_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/src/joystick_drivers/joystick_drivers
 
 //The directory containing a CMake configuration file for kdl_conversions.
 kdl_conversions_DIR:PATH=/opt/ros/kinetic/share/kdl_conversions/cmake
@@ -1466,6 +1478,12 @@ nodelet_DIR:PATH=/opt/ros/kinetic/share/nodelet/cmake
 //The directory containing a CMake configuration file for nodelet_topic_tools.
 nodelet_topic_tools_DIR:PATH=/opt/ros/kinetic/share/nodelet_topic_tools/cmake
 
+//Value Computed by CMake
+odom_creater_BINARY_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/build/odom_creater
+
+//Value Computed by CMake
+odom_creater_SOURCE_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/src/odom_creater
+
 //The directory containing a CMake configuration file for pcl_conversions.
 pcl_conversions_DIR:PATH=/opt/ros/kinetic/share/pcl_conversions/cmake
 
@@ -1479,7 +1497,16 @@ pcl_ros_DIR:PATH=/opt/ros/kinetic/share/pcl_ros/cmake
 pluginlib_DIR:PATH=/opt/ros/kinetic/share/pluginlib/cmake
 
 //Value Computed by CMake
+ps3joy_BINARY_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/build/joystick_drivers/ps3joy
+
+//Value Computed by CMake
+ps3joy_SOURCE_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/src/joystick_drivers/ps3joy
+
+//Value Computed by CMake
 razor_imu_9dof_BINARY_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/build/razor_imu_9dof
+
+//The directory containing a CMake configuration file for razor_imu_9dof.
+razor_imu_9dof_DIR:PATH=/home/ubuntu/Autonomous_RaceCar/catkin_ws/devel/share/razor_imu_9dof/cmake
 
 //Value Computed by CMake
 razor_imu_9dof_SOURCE_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/src/razor_imu_9dof
@@ -1568,6 +1595,12 @@ serial_communication_SOURCE_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws
 //The directory containing a CMake configuration file for smclib.
 smclib_DIR:PATH=/opt/ros/kinetic/share/smclib/cmake
 
+//Value Computed by CMake
+spacenav_node_BINARY_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/build/joystick_drivers/spacenav_node
+
+//Value Computed by CMake
+spacenav_node_SOURCE_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/src/joystick_drivers/spacenav_node
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
 
@@ -1612,6 +1645,12 @@ topic_tools_DIR:PATH=/opt/ros/kinetic/share/topic_tools/cmake
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/kinetic/share/visualization_msgs/cmake
+
+//Value Computed by CMake
+wiimote_BINARY_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/build/joystick_drivers/wiimote
+
+//Value Computed by CMake
+wiimote_SOURCE_DIR:STATIC=/home/ubuntu/Autonomous_RaceCar/catkin_ws/src/joystick_drivers/wiimote
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
@@ -1766,7 +1805,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=28
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1887,6 +1926,42 @@ GTEST_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 GTEST_MAIN_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GTEST_MAIN_LIBRARY_DEBUG
 GTEST_MAIN_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//Have include linux/joystick.h
+HAVE_LINUX_JOYSTICK_H:INTERNAL=1
+LIBUSB_CFLAGS:INTERNAL=
+LIBUSB_CFLAGS_I:INTERNAL=
+LIBUSB_CFLAGS_OTHER:INTERNAL=
+LIBUSB_FOUND:INTERNAL=1
+LIBUSB_INCLUDEDIR:INTERNAL=/usr/include
+LIBUSB_INCLUDE_DIRS:INTERNAL=
+LIBUSB_LDFLAGS:INTERNAL=-lusb
+LIBUSB_LDFLAGS_OTHER:INTERNAL=
+LIBUSB_LIBDIR:INTERNAL=/usr/lib/aarch64-linux-gnu
+LIBUSB_LIBRARIES:INTERNAL=usb
+LIBUSB_LIBRARY_DIRS:INTERNAL=
+LIBUSB_LIBS:INTERNAL=
+LIBUSB_LIBS_L:INTERNAL=
+LIBUSB_LIBS_OTHER:INTERNAL=
+LIBUSB_LIBS_PATHS:INTERNAL=
+LIBUSB_PREFIX:INTERNAL=/usr
+LIBUSB_STATIC_CFLAGS:INTERNAL=
+LIBUSB_STATIC_CFLAGS_I:INTERNAL=
+LIBUSB_STATIC_CFLAGS_OTHER:INTERNAL=
+LIBUSB_STATIC_INCLUDE_DIRS:INTERNAL=
+LIBUSB_STATIC_LDFLAGS:INTERNAL=-lusb
+LIBUSB_STATIC_LDFLAGS_OTHER:INTERNAL=
+LIBUSB_STATIC_LIBDIR:INTERNAL=
+LIBUSB_STATIC_LIBRARIES:INTERNAL=usb
+LIBUSB_STATIC_LIBRARY_DIRS:INTERNAL=
+LIBUSB_STATIC_LIBS:INTERNAL=
+LIBUSB_STATIC_LIBS_L:INTERNAL=
+LIBUSB_STATIC_LIBS_OTHER:INTERNAL=
+LIBUSB_STATIC_LIBS_PATHS:INTERNAL=
+LIBUSB_VERSION:INTERNAL=0.1.12
+LIBUSB_libusb_INCLUDEDIR:INTERNAL=
+LIBUSB_libusb_LIBDIR:INTERNAL=
+LIBUSB_libusb_PREFIX:INTERNAL=
+LIBUSB_libusb_VERSION:INTERNAL=
 //ADVANCED property for variable: PCL_COMMON_LIBRARY
 PCL_COMMON_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_COMMON_LIBRARY_DEBUG
@@ -2520,6 +2595,7 @@ _Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=/usr/lib/aarch64-linux-gnu
 _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.
 _Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
+__pkg_config_checked_LIBUSB:INTERNAL=1
 __pkg_config_checked_PC_EIGEN:INTERNAL=1
 __pkg_config_checked_PC_FLANN:INTERNAL=1
 __pkg_config_checked_PC_OPENNI:INTERNAL=1
@@ -2548,5 +2624,5 @@ csm_csm_INCLUDEDIR:INTERNAL=
 csm_csm_LIBDIR:INTERNAL=
 csm_csm_PREFIX:INTERNAL=
 csm_csm_VERSION:INTERNAL=
-prefix_result:INTERNAL=/usr/lib
+prefix_result:INTERNAL=/usr/lib/aarch64-linux-gnu
 

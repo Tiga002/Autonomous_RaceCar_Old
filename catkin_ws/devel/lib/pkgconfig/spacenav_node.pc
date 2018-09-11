@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Autonomous_RaceCar/catkin_ws/devel
+
+Name: spacenav_node
+Description: Description of spacenav_node
+Version: 1.12.0
+Cflags: 
+Libs: -L/home/ubuntu/Autonomous_RaceCar/catkin_ws/devel/lib 
+Requires: roscpp geometry_msgs sensor_msgs
